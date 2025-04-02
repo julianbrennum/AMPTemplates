@@ -613,5 +613,19 @@
             "carbon": "Carbon",
             "umod": "uMod/Oxide"
         }
+    },
+    {
+        "DisplayName": "Auto Wipe Schedule",
+        "Category": "Rust:stadia_controller",
+        "Subcategory": "Wipes:folder_delete:3",
+        "Description": "Automatically wipes the server map every first Thursday at 20:01",
+        "Keywords": "wipe,schedule,auto",
+        "FieldName": "AutoWipeSchedule",
+        "InputType": "checkbox",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
     }
 ]

@@ -31,5 +31,19 @@
         "ConfigType": "kvp",
         "ConfigFormat": "{0} \"{1}\"",
         "ConfigFormatRegex": "^(?<key>.+?) \"?(?<value>.*?)\"?$"
+    },
+    {
+        "ConfigFile": "./server/{{serveridentity}}/seed.txt",
+        "ConfigType": "plain",
+        "AutoMap": true,
+        "ConfigFormat": "{0}",
+        "Subsections": [
+            {
+                "Heading": "$root",
+                "SettingMappings": {
+                    "": "server.seed"
+                }
+            }
+        ]
     }
 ]
